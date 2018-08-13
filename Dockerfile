@@ -1,5 +1,5 @@
 # Set the base image
-FROM php:7.2-rc
+FROM php:7.2
 # Dockerfile author / maintainer 
 MAINTAINER Adam Leach <docker@adders.eu> 
 
