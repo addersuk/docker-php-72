@@ -12,4 +12,4 @@ RUN pecl install mongodb
 RUN docker-php-ext-enable mongodb
 RUN pecl install xdebug-2.6.0alpha1
 RUN docker-php-ext-enable xdebug
-RUN curl -sS https://getcomposer.org/installer | php
+RUN cd /usr/local/bin/ && curl -sS https://getcomposer.org/installer | php
