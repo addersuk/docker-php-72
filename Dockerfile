@@ -26,8 +26,8 @@ ENV PATH "$RBENV_ROOT/bin:$RBENV_ROOT/shims:/usr/local/sbin:/usr/local/bin:/usr/
 # $RBENV_ROOT/shims:$RBENV_ROOT/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 # install ruby2
-RUN rbenv install 2.4.3
-RUN rbenv global 2.4.3
+RUN rbenv install 2.6.5.
+RUN rbenv global 2.6.5
 
 ENV JAVA_VERSION 8u151
 ENV JAVA_DEBIAN_VERSION 8u151-b12-1~deb9u1
